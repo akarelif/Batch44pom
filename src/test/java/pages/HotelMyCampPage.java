@@ -63,4 +63,5 @@ public class HotelMyCampPage {
         passwordBox.sendKeys(ConfigReader.getProperty("HMCValidPassword"));
         loginButonu.click();
     }
+
 }
