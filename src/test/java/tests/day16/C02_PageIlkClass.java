@@ -30,9 +30,8 @@ public class C02_PageIlkClass {
         Driver.closeDriver();
 
     }
-    @Test
+    @Test(groups = {"miniRegression","smoke"})
     public void test02(){
-
         // amazona gidelim
         Driver.getDriver().get("https://www.amazon.com");
         //java icin arama yapalim
