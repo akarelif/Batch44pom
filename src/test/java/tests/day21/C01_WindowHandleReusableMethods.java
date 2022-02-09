@@ -43,6 +43,7 @@ public class C01_WindowHandleReusableMethods {
         Driver.getDriver().get("https://the-internet.herokuapp.com/windows");
         Driver.getDriver().findElement(By.linkText("Click Here")).click();
         ReusableMethods.switchToWindow("New Window");
+
         String expectedTitle="New Window";
         String actualTitle=Driver.getDriver().getTitle();
 
